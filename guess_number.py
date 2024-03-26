@@ -32,7 +32,7 @@ def run():
             print("Ваше число меньше того, что загадано")
         elif number > rundom_number:
             print("Ваше число больше того, что загадано")
-        else:
+        elif number == rundom_number:
             print("Отличная интуиция! Вы угадали число :)")
             break
 
